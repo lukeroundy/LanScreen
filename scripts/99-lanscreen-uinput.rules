@@ -1,0 +1,3 @@
+# Allow seated users to inject mouse/keyboard from a LanScreen host.
+# Copy to /etc/udev/rules.d/ and run: sudo udevadm control --reload-rules && sudo udevadm trigger
+KERNEL=="uinput", SUBSYSTEM=="misc", TAG+="uaccess", OPTIONS+="static_node=uinput"

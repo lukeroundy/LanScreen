@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=LanScreen
+Comment=Use a second Linux PC as an extended monitor over the LAN
+Exec=lanscreen
+Icon=lanscreen
+Terminal=false
+Categories=Utility;Network;AudioVideo;
+StartupNotify=true
